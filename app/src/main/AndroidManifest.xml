@@ -35,6 +35,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        //Here is the code that adds a "Back button" to the app bar
+        //Child views go back to the parent view when tapped
         <activity android:name=".OrderActivity"
             android:label="@string/title_activity_order"
             android:parentActivityName=".MainActivity">
